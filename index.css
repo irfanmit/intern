@@ -1,0 +1,142 @@
+.container{
+    background-color: rgb(217, 228, 217);
+    height: 30vh;
+    width: 30%;
+    border-radius: 5%;
+    margin-top: 7%;
+    text-align: center;
+    display: flex; 
+    align-items: center;
+}
+.btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 50%;
+    left: 50%;
+    width: 140px;
+    margin-top: 1%;
+}
+.btn1 button:hover{
+    background-color: azure;
+    color: black;
+}
+.container-fluid{
+    margin-top: 5%;
+    text-align: center;
+    background-color: rgb(244 248 249);
+    /* display: flex; */
+    /* width: 100%; */
+}
+.feat{
+    margin-top: 36px;
+    height: 330vh;
+    text-align: center;
+    /* background-color: rgb(166, 22, 22); */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.ft1{
+    
+    justify-content: space-between;
+    margin-left: 10%;
+    display: flex;
+    /* background-color: blue; */
+    width: 70%;
+    height: 80vh;
+}
+.ft1Div{
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+}
+.wrk{
+    /* margin-top: 36px; */
+    height: 400vh;
+    text-align: center;
+    /* background-color: rgb(72, 39, 39); */
+    width: 100%;
+}
+.wrk1{
+    margin-left: 10%;
+    display: flex;
+    /* background-color: blue; */
+    width: 70%;
+    height: 50vh;
+}
+.wrk1 div img{
+    max-height: 100%;
+    max-width: 100%;
+    /* width: 51%;
+    max-width: 300%,  */
+   
+}
+.wrk1Div{
+    height: auto;
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+}
+@media (max-width: 768px) {
+    /* Styles for mobile devices */
+    .ft1 {
+        display: block;
+        margin-bottom: 200px;
+    }
+    .ft1Div{
+        margin-bottom: 200px;
+    }
+    .wrk{
+        margin-top: 170%;
+    }
+    .wrk1{
+        display: block;
+        margin-bottom: 400px;
+    }
+    .wrk12Div{
+        margin-bottom: 30%;
+    }
+    .wrk13Div{
+        margin-bottom: 45%;
+    }
+    .wrk{
+        margin-top: 187%;
+    }
+    .container{
+        width: 50%;
+    }
+    /* Other styles for mobile devices */
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for mobile devices */
+    .ft1 {
+        display: block;
+        margin-bottom: 200px;
+    }
+    .ft1Div{
+        margin-bottom: 200px;
+    }
+    .wrk{
+        margin-top: 170%;
+    }
+    .wrk1{
+        display: block;
+        margin-bottom: 400px;
+    }
+    .wrk12Div{
+        margin-bottom: 30%;
+    }
+    .wrk13Div{
+        margin-bottom: 45%;
+    }
+    .wrk{
+        margin-top: 187%;
+    }
+    .container{
+        width: 50%;
+    }
+    /* Other styles for mobile devices */
+  }
+  
